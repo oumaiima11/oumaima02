@@ -7,6 +7,7 @@ describe('forgotPassword' , () => {
     
         cy.visit('https://ecommerce-playground.lambdatest.io/index.php?route=account/login')
         cy.get('a[href="https://ecommerce-playground.lambdatest.io/index.php?route=account/forgotten"]').contains('Forgotten Password').click()
+        ///jhjfjfjf
         
     
         })
